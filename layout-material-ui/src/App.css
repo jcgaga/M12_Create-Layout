@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  background-color: burlywood;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.row-heigth{
+  height: 800px;
+}
+
+.talla{
+  padding: 10px 0px;
+} 
+
+.col-big{
+  height: 25rem;
+}
