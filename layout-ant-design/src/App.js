@@ -22,40 +22,89 @@ function App() {
           <h1>M12 Exercici. Creant un layout amb Ant Design</h1>
         </div>
       </Header>
-      <Content style={{ margin: "50px" }}>
-        <Row style={{ height: "600px" }}>
+      <Content
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginTop: 10,
+        }}
+      >
+        <Row style={{ width: "1500px", height: "600px" }}>
           <Col span={12}>
             <Row style={{ height: "300px" }}>
-              <Col span={16} style={{ background: "green" }}>
+              <Col
+                span={16}
+                style={{
+                  background: "green",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
                 <BreadcrumbComponent />
               </Col>
-              <Col span={8} style={{ background: "aqua" }}>
+              <Col
+                span={8}
+                style={{
+                  background: "aqua",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
                 <CardComponent />
               </Col>
             </Row>
             <Row style={{ height: "300px" }}>
-              <Col span={8} style={{ background: "coral" }}>
+              <Col
+                span={8}
+                style={{
+                  background: "coral",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
                 <DatePickers />
               </Col>
               <Col
                 span={16}
-                style={{ background: "purple"}}
+                style={{
+                  background: "purple",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
               >
                 <DropdownComponent />
               </Col>
             </Row>
           </Col>
-          <Col span={6} style={{ background: "khaki" }}>
+          <Col
+            span={6}
+            style={{
+              background: "khaki",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
             <FormComponent />
           </Col>
-          <Col span={6} style={{ background: "green" }}>
+          <Col span={6}>
             <Row style={{ height: "300px" }}>
-              <Col span={24} style={{ background: "orange" }}>
+              <Col
+                span={24}
+                style={{ background: "orange", paddingTop: "100px" }}
+              >
                 <SliderComponent />
               </Col>
             </Row>
-            <Row style={{ height: "300px" }}>
-              <Col span={24} style={{ background: "mediumpurple" }}>
+            <Row style={{ height: "300px", textAlign: "center" }}>
+              <Col
+                span={24}
+                style={{ background: "mediumpurple", paddingTop: "100px" }}
+              >
                 <CheckboxComponent />
               </Col>
             </Row>

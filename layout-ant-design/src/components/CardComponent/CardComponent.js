@@ -7,7 +7,7 @@ export default function CardComponent() {
   return (
     <Card
       hoverable
-      style={{ width: 160 }}
+      style={{ width: 150 }}
       cover={
         <img
           alt="example"
