@@ -31,3 +31,7 @@
     Instalación:
         1. npx create-react-app layout-ant-design
         2. npm install antd
+
+    Codesandbox:
+        https://codesandbox.io/s/optimistic-almeida-d2wrp
+        
