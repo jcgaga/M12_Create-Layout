@@ -22,3 +22,12 @@
 
         <!-- Font Icons-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    
+    Codesandbox:
+        https://codesandbox.io/s/morning-worker-j12o3
+
+# layout-ant-design
+
+    Instalación:
+        1. npx create-react-app layout-ant-design
+        2. npm install antd
