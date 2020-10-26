@@ -1,3 +1,12 @@
+# Ejercicio: Creando un layout con React-Bootstrap
+
+    Objectivos: 
+        - Conseguir integrar Bootstrap en un proyecto React.
+        - Aprender a utilizar los componentes de React-Bootstrap.
+
+    Bonus part(opcional)
+        - Crear layout con otras Interficies de Usuario en React (Tailwind css, Semantic UI, Marterial UI, Ant Design...)
+
 # layout-react-bootstrap
 
     Instalación:
